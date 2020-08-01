@@ -35,7 +35,7 @@ cnn.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = ['accura
 
 ht = cnn.fit_generator(training_set,
                         steps_per_epoch=8000,
-                        epochs=500,
+                        epochs=50,
                         validation_data=test_set,
                         validation_steps=2000)
 
