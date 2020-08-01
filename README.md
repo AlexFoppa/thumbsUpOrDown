@@ -7,9 +7,11 @@ Por restrições de tempo, o classificador não foi integrado a um front-end, se
 Além disso, o dataset foi improvisado para a execução do exercício, dentro da viabilidade de tempo e recursos.
 
 Outros arquivos:
-train.py - script de treinamento;
-model - modelo;
-perf - gráfico com métricas do modelo atual
+convolutional_neural_network
+model50epoc - modelo com maior número de acertos. Aparenta estar com probelmas de overfitting, mas foi o melhor que consegui dentro do tempo disponível;
+perf50epoc - gráfico com métricas do modelo atual
+model30epoc - modelo alternativo, com early stop para reduzir overffiting - menos acertos
+perf30epoc - gráfico com métricas do modelo alternativo
 
 Dataset:
 
