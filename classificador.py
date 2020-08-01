@@ -23,7 +23,7 @@ training_set = train_datagen.flow_from_directory('dataset/training_set',
                                                  batch_size = 32,
                                                  class_mode = 'binary')
 
-cnn = keras.models.load_model('model');
+cnn = keras.models.load_model('model50epoc');
 
 #função de teste
 def testImage(imagem):
